@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'cusproductwebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a80934c7337c4306992cfdc2f28531ca }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_386bf2d581434bcbb7550773ff2f43b0 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
